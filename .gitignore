@@ -1,0 +1,48 @@
+# 根目录下的临时脚本、截图、APK、录制片段、本地配置备份等一律不入库，
+# 仓库里只保留工程本身（app/、assets/bg、build.py、make_icon.py 等）。
+/*.py
+!/build.py
+!/make_icon.py
+/*.apk
+/*.idsig
+/*.png
+/*.jpg
+/*.mp4
+/*.txt
+/*.xml
+/*.ini
+/*.bat
+/*.keystore
+/*.java
+
+# 签名文件（首次构建会自动生成 debug.keystore）
+*.keystore
+*.jks
+
+# 临时备份文件
+*.testbak
+
+# 参考图（官方界面截图，他人版权，不入库）
+/ref/
+
+# 壁纸原始素材与视频抽帧（体积大，属于个人素材）
+/bgraw/
+/vidframes/
+
+# 本地测试服务器与样片
+/fake_emby/
+/mock/
+
+# assets 下的辅助脚本与原始素材
+/assets/*.py
+/assets/*.ps1
+/assets/*.txt
+/assets/cat_icon_src.png
+
+# 第三方二进制依赖：android.jar / media3 / vlc / zxing
+# 体积大且各有授权，按 README 的说明自行放到 deps/ 下
+/deps/
+
+# 构建输出
+/build/
+/work/
