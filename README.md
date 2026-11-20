@@ -1,6 +1,6 @@
 # LonYao · 第三方 Emby TV 客户端
 
-一款自己折腾出来的 Android TV 版 Emby 客户端，包名 `com.longyao.anbitv`，全程用 Java 手写、不用 Gradle 构建。
+一款自己折腾出来的 Android TV 版 Emby 客户端，包名 `com.longyao.anbitv`，全程用 Java 写、不用 Gradle 构建。
 
 这是作者**第一次借助 AI 开发**的完整 App：从零开始，一边学一边改，前后迭代了几十版。界面按电视遥控器的操作习惯重新设计，不是手机端的简单拉伸。
 
