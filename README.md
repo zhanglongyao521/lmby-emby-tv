@@ -14,9 +14,9 @@
 
 ## 预览
 
-| 首页（虚拟库演示） | 媒体库（海报墙） | 账号登录 |
+| 首页（虚拟库演示） | 媒体库（海报墙） | 连接服务器 |
 | --- | --- | --- |
-| ![首页](images/home.png) | ![媒体库](images/library.png) | ![账号登录](images/login.png) |
+| ![首页](images/home.png) | ![媒体库](images/library.png) | ![连接服务器](images/server.jpg) |
 
 ## 功能
 
